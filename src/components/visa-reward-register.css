@@ -1,0 +1,32 @@
+ul {
+  display:flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height:110px;
+  overflow: hidden;
+  background-color: #000080;
+}
+
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 19px;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #f7b600;
+}
+
+.header-indicator {
+  background: #f7b600;
+    height: 4px;
+    position: relative;
+    z-index: 90;
+}
